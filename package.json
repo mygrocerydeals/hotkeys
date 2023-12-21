@@ -62,7 +62,6 @@
     "cross-env": "^5.2.0",
     "@ngneat/spectator": "^5.3.1"
   },
-
   "lint-staged": {
     "*.{js,json,css,scss,ts,html,component.html}": [
       "prettier --write",
