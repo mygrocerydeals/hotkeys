@@ -28,7 +28,7 @@
     "@angular/router": "~13.4.0",
     "@ngneat/lib": "^1.0.0",
     "rxjs": "~6.5.4",
-    "tslib": "^2.0.0",
+    "tslib": "^2.3.0",
     "zone.js": "~0.11.8"
   },
   "devDependencies": {
