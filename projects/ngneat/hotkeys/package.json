@@ -1,6 +1,6 @@
 {
-  "name": "@ngneat/hotkeys",
-  "version": "1.2.0",
+  "name": "@shopliftr/hotkeys",
+  "version": "1.2.2",
   "description": "A declarative library for handling hotkeys in Angular applications",
   "keywords": [
     "angular",
@@ -21,5 +21,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/ngneat/hotkeys"
+  },
+  "peerDependencies": {
+    "tslib": "^2.3.0 || ^1.10.0"
   }
 }

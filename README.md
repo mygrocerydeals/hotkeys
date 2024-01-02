@@ -19,6 +19,13 @@ A declarative library for handling hotkeys in Angular applications.
 
 Web apps are getting closer and closer to be desktop-class applications. With this in mind, it makes sense to add hotkeys for those power users that are looking to navigate their favorite websites using hotkeys just as they do on their regular native apps. To help you have a better experience we developed Hotkeys.
 
+## Update version and push to shopliftr registry
+
+Update package.json file under /project folder
+
+`npm run build:lib`
+`npm --prefix ./dist/ngneat/hotkeys publish ./dist/ngneat/hotkeys`
+
 ## Features
 
 - ✅ Support Element Scope

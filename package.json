@@ -11,7 +11,6 @@
     "commit": "git-cz",
     "build:lib": "ng build @ngneat/hotkeys --prod",
     "test:lib": "ng test @ngneat/hotkeys",
-    "release": "cd projects/ngneat/hotkeys && standard-version --infile ../../../CHANGELOG.md",
     "test:lib:headless": "cross-env CI=true npm run test:lib"
   },
   "private": true,
@@ -53,28 +52,13 @@
     "ts-node": "~8.3.0",
     "tslint": "~5.18.0",
     "typescript": "~3.7.5",
-    "@commitlint/cli": "8.1.0",
-    "@commitlint/config-angular": "^8.1.0",
-    "@commitlint/config-conventional": "^8.1.0",
     "git-cz": "^3.2.1",
     "all-contributors-cli": "^6.8.1",
     "lint-staged": "^9.2.0",
     "prettier": "^1.18.2",
     "standard-version": "^6.0.1",
-    "husky": "^3.0.1",
     "cross-env": "^5.2.0",
     "@ngneat/spectator": "^5.3.1"
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -e $GIT_PARAMS",
-      "pre-commit": "npm run hooks:pre-commit && lint-staged"
-    }
-  },
-  "config": {
-    "commitizen": {
-      "path": "cz-conventional-changelog"
-    }
   },
   "lint-staged": {
     "*.{js,json,css,scss,ts,html,component.html}": [
